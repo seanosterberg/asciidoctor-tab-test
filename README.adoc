@@ -1,0 +1,6 @@
+# asciidoctor-tab-test
+Code for processing custom Asciidoctor block syntax.
+
+== How to Run
+
+Run the test `TabProcessorTest.createTestAsciiDocFile_SuccessfullyRendersFile()`.
