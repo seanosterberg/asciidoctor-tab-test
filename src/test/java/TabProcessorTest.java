@@ -18,7 +18,7 @@ public class TabProcessorTest {
     }
 
     private File getValidFile() {
-        String path = Utilities.getConcatPath(new String[] { getTestResourcesPath(), "test-file.adoc" });
+        String path = Utilities.getConcatPath(new String[] { getTestResourcesPath(), "test-file2.adoc" });
         return new File(path);
     }
 
