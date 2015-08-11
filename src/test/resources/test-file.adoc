@@ -4,6 +4,11 @@ _Premium_
 
 Anypoint Connector for Siebel lets you access connections between Mule integration applications and the Oracle Siebel customer relationship manager (CRM).
 
+[source]
+----
+test
+----
+
 *Release Notes*: link:/release-notes/siebel-connector-release-notes[Siebel Connector Release Notes]
 
 The connector provides these options to connect to Siebel applications:

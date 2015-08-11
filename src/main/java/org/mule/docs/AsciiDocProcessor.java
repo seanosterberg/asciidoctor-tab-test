@@ -44,6 +44,7 @@ public class AsciiDocProcessor {
 
     public void registerExtensions() {
         JavaExtensionRegistry extensionRegistry = asciidoctor.javaExtensionRegistry();
+        extensionRegistry.block("source", CodeBlockProcessor.class);
         extensionRegistry.block("tabs", TabProcessor.class);
     }
 
