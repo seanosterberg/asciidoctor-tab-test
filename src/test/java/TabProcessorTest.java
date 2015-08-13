@@ -14,11 +14,12 @@ public class TabProcessorTest {
     public void createTestAsciiDocFile_SuccessfullyRendersFile() {
         AsciiDocProcessor processor = AsciiDocProcessor.getProcessorInstance();
         String result = processor.convertFile(getValidFile());
+        System.out.println(result);
         assertNotNull(result);
     }
 
     private File getValidFile() {
-        String path = Utilities.getConcatPath(new String[] { getTestResourcesPath(), "test-file2.adoc" });
+        String path = Utilities.getConcatPath(new String[] { getTestResourcesPath(), "test-file3.adoc" });
         return new File(path);
     }
 
