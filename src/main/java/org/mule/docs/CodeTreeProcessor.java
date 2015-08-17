@@ -43,7 +43,7 @@ public class CodeTreeProcessor extends Treeprocessor {
                             System.out.println("Key: " + entry.getKey());
                             System.out.println("Value: " + entry.getValue() + "\n");
                         }
-                        //block.setAttr("style", "source", false);
+                        block.setAttr("style", "source", false);
                         block.setAttr("language", "java", true);
                         block.setAttr("linenums", "linenums", false);
 

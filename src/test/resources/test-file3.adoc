@@ -1,6 +1,6 @@
 = Testing
 
-[source]
+[source,java]
 ----
 Foobar
 ----

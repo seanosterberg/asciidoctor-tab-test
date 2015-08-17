@@ -44,8 +44,8 @@ public class AsciiDocProcessor {
 
     public void registerExtensions() {
         JavaExtensionRegistry extensionRegistry = asciidoctor.javaExtensionRegistry();
-        extensionRegistry.treeprocessor(CodeTreeProcessor.class);
-        extensionRegistry.block("source", CodeBlockProcessor.class);
+        //extensionRegistry.treeprocessor(CodeTreeProcessor.class);
+        //extensionRegistry.block("source", CodeBlockProcessor.class);
         extensionRegistry.block("tabs", TabProcessor.class);
     }
 
@@ -66,6 +66,7 @@ public class AsciiDocProcessor {
         attributes.put("idseparator", "-");
         attributes.put("icons", "font");
         attributes.put("source-highlighter", "coderay");
+        attributes.put("coderay-linenums-mode", "table");
         attributes.put("imagesdir", "../images");
         return attributes;
     }
